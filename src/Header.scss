@@ -1,0 +1,44 @@
+header {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .nav {
+        display: flex;
+        gap: 56px;
+
+        .nav-link {
+            color: #111112;
+            font-size: 14px;
+            line-height: 19px;
+            text-decoration: none;
+        }
+
+        & ul {
+            display: flex;
+            list-style: none;
+            justify-content: space-between;
+            gap: 56px;
+        }
+    }
+
+
+    .signup {
+        display: flex;
+        gap: 33px;
+
+        & button {
+            width: 96px;
+            height: 43px;
+            background: #111112;
+            border-radius: 18px;
+            color: #FDFBFA;
+            font-size: 14px;
+            line-height: 19px;
+            border: none;
+            cursor: pointer;
+        }
+    }
+
+}

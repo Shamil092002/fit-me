@@ -1,0 +1,109 @@
+.boxdietsection {
+    margin-top: 190px;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+
+    & h2 {
+        font-size: 38px;
+        line-height: 62px;
+    }
+
+    .boxdiets {
+        margin-top: 65px;
+        display: flex;
+        align-items: center;
+
+        .fresh {
+            height: 220px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+
+            & p {
+                color: #ADAEAF;
+            }
+
+            .plant {
+                width: 134px;
+                height: 128px;
+                background: #F5F5F5;
+                border-radius: 28px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+
+        .taste {
+            height: 220px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+
+            & p {
+                color: #ADAEAF;
+            }
+
+            .tasteicon {
+                width: 134px;
+                height: 128px;
+                background: #F5F5F5;
+                border-radius: 28px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+
+        .diversity {
+            height: 220px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+
+            & p {
+                color: #ADAEAF;
+            }
+
+            .diversityicon {
+                width: 134px;
+                height: 128px;
+                background: #F5F5F5;
+                border-radius: 28px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+
+        .match {
+            height: 220px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+
+            & p {
+                color: #ADAEAF;
+            }
+
+            .gymicon {
+                width: 134px;
+                height: 128px;
+                background: #F5F5F5;
+                border-radius: 28px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+}

@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h2,
+h4 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.menu {
+    margin-top: 140px;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 38px;
+    line-height: 62px;
+}
+
+.food {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 23px;
+
+    .toprated {
+        display: flex;
+        gap: 18px;
+        align-items: center;
+
+        .top {
+            width: 121px;
+            height: 36px;
+            padding: 7px 24px;
+            background: #FDFBFA;
+            border: 1px solid #111112;
+            border-radius: 12px;
+            font-size: 16px;
+            line-height: 22px;
+        }
+
+        & button {
+            background: #F5F5F5;
+            border-radius: 12px;
+            padding: 7px 24px;
+            border: none;
+            font-size: 16px;
+            line-height: 22px;
+        }
+    }
+
+    .choosediet {
+        display: flex;
+        gap: 16px;
+        align-items: center;
+
+        #all {
+            width: 223px;
+            height: 50px;
+            border: 1px solid #ADAEAF;
+            border-radius: 18px;
+            padding: 14px 24px;
+            color: #ADAEAF;
+            font-size: 16px;
+            line-height: 22px;
+        }
+    }
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 28px 20px;
+    margin-top: 28px;
+    position: relative;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+
+    .slim {
+        #rate {
+            position: absolute;
+            left: 634px;
+            top: 12px;
+        }
+
+        .lunch {
+            position: absolute;
+            left: 500px;
+        }
+
+        #rate3 {
+            position: absolute;
+            top: 12px;
+            left: 1000px;
+        }
+
+        .snacks {
+            position: absolute;
+            left: 855px;
+        }
+
+        #rate4 {
+            position: absolute;
+            left: 1360px;
+            top: 12px;
+        }
+
+        .breakfast {
+            position: absolute;
+            left: 1220px;
+        }
+
+        #rating {
+            position: absolute;
+            left: 269px;
+            top: 12px;
+        }
+
+        & button {
+            background: #FDFBFA;
+            border-radius: 10px;
+            border: none;
+            color: #ADAEAF;
+            font-size: 14px;
+            line-height: 19px;
+            width: 98px;
+            height: 29px;
+            position: absolute;
+            top: 328px;
+            left: 123px;
+        }
+
+        .kcal {
+            display: flex;
+            max-width: 347px;
+            justify-content: space-between;
+            margin-top: 15px;
+
+            & p {
+                color: #ADAEAF;
+                font-size: 16px;
+                line-height: 22px;
+            }
+
+            & h4 {
+                line-height: 22px;
+            }
+        }
+
+        & div {
+            margin-top: 8px;
+
+            & p {
+                font-size: 14px;
+                line-height: 19px;
+                color: #ADAEAF;
+            }
+        }
+
+        .diet {
+            display: flex;
+            gap: 200px;
+            margin-top: 18px;
+
+            .icon {
+                display: flex;
+                gap: 10px;
+            }
+
+            & p {
+                color: #ADAEAF;
+                font-size: 16px;
+                line-height: 22px;
+
+                & span {
+                    color: black;
+                }
+            }
+        }
+    }
+
+}
+
+.more {
+    margin-top: 88px;
+    display: flex;
+    justify-content: center;
+}

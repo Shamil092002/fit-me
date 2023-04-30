@@ -1,0 +1,77 @@
+.blogsection {
+    margin-top: 200px;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+
+    & h2 {
+        font-size: 38px;
+        line-height: 62px;
+    }
+
+    .product {
+        display: flex;
+        gap: 18px;
+
+        .blog {
+            margin-top: 30px;
+
+            & p {
+                color: #ADAEAF;
+                margin-top: 30px;
+            }
+        }
+
+        .rightside {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            margin-top: 25px;
+
+            .watch2 {
+                display: flex;
+                flex-direction: column;
+                gap: 85px;
+
+                .time {
+                    display: flex;
+                    gap: 228px;
+
+                    & p {
+                        color: #ADAEAF;
+                    }
+
+                    & div {
+                        display: flex;
+                        gap: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+    .video {
+        display: flex;
+        gap: 20px;
+
+        .watch {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+
+            & p {
+                color: #ADAEAF;
+            }
+
+            .time {
+                display: flex;
+                justify-content: space-between;
+
+                & div {
+                    display: flex;
+                    gap: 10px;
+                }
+            }
+        }
+    }
+}
