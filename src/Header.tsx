@@ -34,7 +34,7 @@ export const Header = () => {
             </nav>
             <div className="signup">
                 <img src={lock} alt="Lock" />
-                <Link to={"Login"}><button>Sign In</button></Link>
+                <Link to={"/Login"}><button>Sign In</button></Link>
             </div>
         </header>
     );

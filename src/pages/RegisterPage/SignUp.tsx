@@ -20,7 +20,7 @@ export const SignUp = () => {
                     </button>
                     <div className="section">
                         <p>Already have an account?</p>
-                        <Link to="SignIn"><button className="signin">Sign In</button></Link>
+                        <Link to="/SignIn"><button className="signin">Sign In</button></Link>
                     </div>
                 </div>
             </div>

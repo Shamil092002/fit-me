@@ -17,7 +17,7 @@ export const Login = () => {
                     <Link to={'/'} ><button type="submit">Continue</button></Link>
                 </div>
                 <div className="button2">
-                    <Link to="SignUp"><button className="signin">Sign Up</button></Link>
+                    <Link to="/sign-up"><button className="signin">Sign Up</button></Link>
                 </div>
 
             </div>

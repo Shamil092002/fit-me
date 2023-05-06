@@ -11,12 +11,14 @@ body {
 .wrapper {
     min-height: 100vh;
     width: 100%;
+    height: 100%;
     background-image: url(./food.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 100px;
 
     .signupform {
         background: #F5F5F5;

@@ -6,6 +6,8 @@ import { Header } from './Header';
 import { Footer } from './Footer';
 import { Route, Routes } from 'react-router-dom';
 import { Menu } from './pages/Menu/Menu';
+import { Login } from './pages/LoginPage/Login';
+import { SignUp } from './pages/RegisterPage/SignUp';
 
 
 function App() {
@@ -15,7 +17,9 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="Menu" element={<Menu />} />
+          <Route path="menu" element={<Menu />} />
+          <Route path="login" element={<Login />} />
+          <Route path="sign-up" element={<SignUp />} />
         </Routes>
       </main>
       <footer>
